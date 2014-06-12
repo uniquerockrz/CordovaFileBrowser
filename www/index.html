@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>CordovaFileBrowser</title>
+
+        <!-- Phonegap -->
+        <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+        <script type="text/javascript" src="http://192.168.1.102:8080/target/target-script-min.js"></script>
+
+        <script type="text/javascript">
+             // Wait for Cordova to load
+            document.addEventListener("deviceready", onDeviceReady, false);
+
+            // Cordova is ready
+            function onDeviceReady() {
+                window.resolveLocalFileSystemURL('cdvfile://localhost/root/', gotFS, fail);
+            }
+
+            function gotFS(filesystem){
+                console.log(JSON.stringify(filesystem));
+                var dirReader = filesystem.createReader();
+                dirReader.readEntries(listDir, fail);
+            }
+
+            function listDir(entries){
+                var i;
+                for (i=0; i<entries.length; i++) {
+                    console.log(entries[i].name);
+                }
+            }   
+
+            function fail(){
+                console.log('fail');
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Test</h1>
+    </body>
+</html>
