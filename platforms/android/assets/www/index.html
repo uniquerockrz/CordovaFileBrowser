@@ -9,9 +9,21 @@
 
         <!-- Phonegap -->
         <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
-        <script type="text/javascript" src="http://192.168.1.102:8080/target/target-script-min.js"></script>
 
+        <!-- Angular -->
+        <script type="text/javascript" src="js/angular/angular.js"></script>
+        <script type="text/javascript" src="js/angular/angular-route.js"></script>
+
+        <!-- Ionic -->
+        <script type="text/javascript" src="js/ionic.js"></script>
+        <script type="text/javascript" src="js/ionic-angular.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/ionic.css">
+
+        <!-- The main app file -->
+        <script type="text/javascript" src="app.js"></script>
+        
         <script type="text/javascript">
+            /*
              // Wait for Cordova to load
             document.addEventListener("deviceready", onDeviceReady, false);
 
@@ -36,9 +48,10 @@
             function fail(){
                 console.log('fail');
             }
+            */
         </script>
     </head>
-    <body>
-        <h1>Test</h1>
+    <body ng-app='CordovaFileBrowser'>
+        <div ng-view></div>
     </body>
 </html>

@@ -39,8 +39,6 @@
 /home/srvmdk/public_html/CordovaFileBrowser/platforms/android/ant-build/classes/org/apache/cordova/file/FileUtils$10.class \
 /home/srvmdk/public_html/CordovaFileBrowser/platforms/android/ant-build/classes/org/apache/cordova/file/FileUtils$17.class \
 /home/srvmdk/public_html/CordovaFileBrowser/platforms/android/ant-build/classes/org/apache/cordova/file/FileUtils$7.class \
-/home/srvmdk/public_html/CordovaFileBrowser/platforms/android/ant-build/classes/com/feedhenry/phonegap/externalstorage/SandboxedExternalStorage.class \
-/home/srvmdk/public_html/CordovaFileBrowser/platforms/android/ant-build/classes/com/feedhenry/phonegap/externalstorage/SandboxedExternalStorage$StorageException.class \
 /home/srvmdk/public_html/CordovaFileBrowser/platforms/android/ant-build/classes/io/cordova/hellocordova/R$attr.class \
 /home/srvmdk/public_html/CordovaFileBrowser/platforms/android/ant-build/classes/io/cordova/hellocordova/BuildConfig.class \
 /home/srvmdk/public_html/CordovaFileBrowser/platforms/android/ant-build/classes/io/cordova/hellocordova/HelloCordova.class \
