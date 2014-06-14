@@ -21,35 +21,6 @@
 
         <!-- The main app file -->
         <script type="text/javascript" src="app.js"></script>
-        
-        <script type="text/javascript">
-            /*
-             // Wait for Cordova to load
-            document.addEventListener("deviceready", onDeviceReady, false);
-
-            // Cordova is ready
-            function onDeviceReady() {
-                window.resolveLocalFileSystemURL('cdvfile://localhost/root/', gotFS, fail);
-            }
-
-            function gotFS(filesystem){
-                console.log(JSON.stringify(filesystem));
-                var dirReader = filesystem.createReader();
-                dirReader.readEntries(listDir, fail);
-            }
-
-            function listDir(entries){
-                var i;
-                for (i=0; i<entries.length; i++) {
-                    console.log(entries[i].name);
-                }
-            }   
-
-            function fail(){
-                console.log('fail');
-            }
-            */
-        </script>
     </head>
     <body ng-app='CordovaFileBrowser'>
         <div ng-view></div>

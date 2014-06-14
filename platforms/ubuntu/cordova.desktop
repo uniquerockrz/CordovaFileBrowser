@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=HelloCordova
+Exec=./cordova-ubuntu www/
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true

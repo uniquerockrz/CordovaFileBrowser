@@ -32,13 +32,11 @@
 /home/srvmdk/public_html/CordovaFileBrowser/platforms/android/assets/www/index.html \
 /home/srvmdk/public_html/CordovaFileBrowser/platforms/android/assets/www/partials \
 /home/srvmdk/public_html/CordovaFileBrowser/platforms/android/assets/www/img \
-/home/srvmdk/public_html/CordovaFileBrowser/platforms/android/assets/www/test.html \
 /home/srvmdk/public_html/CordovaFileBrowser/platforms/android/assets/www/fonts \
 /home/srvmdk/public_html/CordovaFileBrowser/platforms/android/assets/www/app.js \
 /home/srvmdk/public_html/CordovaFileBrowser/platforms/android/assets/www/js \
 /home/srvmdk/public_html/CordovaFileBrowser/platforms/android/assets/www/cordova.js \
 /home/srvmdk/public_html/CordovaFileBrowser/platforms/android/assets/www/plugins \
-/home/srvmdk/public_html/CordovaFileBrowser/platforms/android/assets/www/test.js \
 /home/srvmdk/public_html/CordovaFileBrowser/platforms/android/assets/www/cordova_plugins.js \
 /home/srvmdk/public_html/CordovaFileBrowser/platforms/android/assets/www/css \
 /home/srvmdk/public_html/CordovaFileBrowser/platforms/android/assets/www/partials/splash.html \

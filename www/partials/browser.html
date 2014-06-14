@@ -1,9 +1,15 @@
-<h1>Browser</h1>
-
-Number of files: {{NoFiles}}
-
-<ul>
-	<li ng-repeat="file in files">
-		{{file.name}}
-	</li>
-</ul>
+<div class="bar bar-header bar-balanced">
+	<h1 class="title">CordovaFileBrowser</h1>
+</div>
+<ion-view>
+	<ion-content>
+		<ul class="list">
+			<li class="item" ng-repeat="file in files">
+				<i class="icon ion-folder"></i> {{file.name}}
+			</li>
+		</ul>
+	</ion-content>
+</ion-view>
+<div class="bar bar-footer bar-balanced">
+	<div class="title">{{NoFiles}} Files & Folders</div>
+</div>
